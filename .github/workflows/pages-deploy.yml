@@ -45,10 +45,10 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - uses: actions/checkout@v3
       - name: npm i
         uses: bahmutov/npm-install@v1.4.5
-        run: npm run build
+
+      - run: npm run build
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
