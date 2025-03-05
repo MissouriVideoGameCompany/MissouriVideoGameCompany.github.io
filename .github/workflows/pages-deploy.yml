@@ -45,8 +45,8 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: npm i
-        uses: bahmutov/npm-install@v1.4.5
+      # - name: npm i
+      #   uses: bahmutov/npm-install@v1.4.5
 
       - run: npm i
       - run: npm run build
