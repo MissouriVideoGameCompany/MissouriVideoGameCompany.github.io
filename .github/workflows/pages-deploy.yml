@@ -44,10 +44,10 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
+
+      - uses: actions/checkout@v3
       - name: npm i
-        uses: actions/checkout@v1
         uses: bahmutov/npm-install@v1.4.5
-        run: npm i
         run: npm run build
 
       - name: Build site
