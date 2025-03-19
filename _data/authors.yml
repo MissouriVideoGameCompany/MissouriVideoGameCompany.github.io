@@ -5,8 +5,9 @@
 #   twitter: {twitter_of_author}
 #   url: {homepage_of_author}
 # -------------------------------------
-joe_h:
+omj:
   name: Joe H
+  url: https://www.mv-gc.com
 
 cotes:
   name: Cotes Chung
