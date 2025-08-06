@@ -1,5 +1,5 @@
 ---
-title: Steam Partner
+title: Breaking the sorting barrier, kinda
 description: A*, pathfinding
 author: omj
 date: 2025-08-06 12:00
