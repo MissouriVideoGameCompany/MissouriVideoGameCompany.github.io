@@ -19,9 +19,11 @@ mermaid: true
 ## Breaking the sorting barrier, kinda
 <!-- markdownlint-restore -->
 
-Exciting breakthrough in pathfinding algorithms! A new research paper (https://arxiv.org/pdf/2504.17033) has developed an algorithm that breaks the theoretical speed barrier for shortest path calculations potentially revolutionizing how we handle pathfinding in games.
+Exciting breakthrough in pathfinding algorithms! A new research paper ([https://arxiv.org/pdf/2504.17033](https://arxiv.org/pdf/2504.17033)) has developed an algorithm that breaks the theoretical speed barrier for shortest path calculations potentially revolutionizing how we handle pathfinding in games.
+
 This isn't actually an A* improvement, but rather a fundamentally new approach to single-source shortest paths that achieves O(m log²/³ n) complexity versus traditional methods at O(m + n log n). For sparse maps (think open worlds with scattered obstacles), early tests show 2-5x speed improvements that grow with map size. However, on dense maps (like tight dungeon layouts), the advantage diminishes and can even reverse.
+
 The implications for large-scale game worlds could be massive imagine faster NPC pathfinding across entire continents!
 
-https://claude.ai/public/artifacts/8f67134c-f403-48e9-a942-8235f873ecec
+[graphs to visualise change](https://claude.ai/public/artifacts/8f67134c-f403-48e9-a942-8235f873ecec)
 (Thanks Claude)
