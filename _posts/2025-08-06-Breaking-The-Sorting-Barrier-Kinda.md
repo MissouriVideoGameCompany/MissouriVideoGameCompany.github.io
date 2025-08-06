@@ -2,7 +2,7 @@
 title: Steam Partner
 description: A*, pathfinding
 author: omj
-date: 2025-08-06 18:32
+date: 2025-08-06 12:00
 tags: Algorithm, Pathfinding]
 pin: false
 math: true
